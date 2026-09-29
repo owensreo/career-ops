@@ -217,6 +217,7 @@ const SYSTEM_PATHS = [
   'config/profile.example.yml',
   '.env.example',
   '.editorconfig',
+  '.agent/',
   '.agents/',
   '.claude/skills/',
   '.opencode/skills/',

@@ -61,6 +61,8 @@ Auto-memory **never** holds content claims about the user's work, technical acco
 
 Rules belong in files the harness reads automatically — `CLAUDE.md`, `CODEX.md`, `AGENTS.md`, `modes/*.md`, `MEMORY.md`. Do not create sidecar documentation that requires manual loading. Reinforcement-without-enforcement decays.
 
+For architecture, privacy-boundary, provider, workflow, migration, or other multi-stage work, read and follow [`.agent/PLANS.md`](.agent/PLANS.md) before implementation. Store task-specific plans under `.agent/plans/`.
+
 ## Update Check
 
 On the first message of each session, run the update checker silently:
