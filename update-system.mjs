@@ -331,6 +331,7 @@ const USER_PATHS = [
   'output/',
   'jds/',
   'writing-samples/',
+  'local-templates/',
   'config/plugins.yml',
   'plugins.local/',
   'plugins.lock',
