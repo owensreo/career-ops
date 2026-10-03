@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.1](https://github.com/owensreo/career-ops/compare/web-v0.3.0...web-v0.3.1) (2026-10-03)
+
+
+### Bug Fixes
+
+* **deps:** update nanoid security patch ([#12](https://github.com/owensreo/career-ops/issues/12)) ([e39a244](https://github.com/owensreo/career-ops/commit/e39a244f2ca47ca48da2ce3c6b8f7e55326cbbab))
+* **deps:** update Next.js security patch ([#14](https://github.com/owensreo/career-ops/issues/14)) ([5894437](https://github.com/owensreo/career-ops/commit/5894437157a6531b8740f083b773c608f561ed41))
+
 ## [0.3.0](https://github.com/santifer/career-ops/compare/web-v0.2.0...web-v0.3.0) (2026-07-07)
 
 

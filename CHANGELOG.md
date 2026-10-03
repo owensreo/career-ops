@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.21.1](https://github.com/owensreo/career-ops/compare/career-ops-v1.21.0...career-ops-v1.21.1) (2026-10-03)
+
+
+### Bug Fixes
+
+* **deps:** update nanoid security patch ([#12](https://github.com/owensreo/career-ops/issues/12)) ([e39a244](https://github.com/owensreo/career-ops/commit/e39a244f2ca47ca48da2ce3c6b8f7e55326cbbab))
+* **deps:** update Next.js security patch ([#14](https://github.com/owensreo/career-ops/issues/14)) ([5894437](https://github.com/owensreo/career-ops/commit/5894437157a6531b8740f083b773c608f561ed41))
+* distribute Codex planning guidance ([709af99](https://github.com/owensreo/career-ops/commit/709af994433e03f921694c0eb03b28e15c623486))
+* skip Discord feed when webhook is unconfigured ([0f7c3d6](https://github.com/owensreo/career-ops/commit/0f7c3d63e172acda71213365a056fd20c03d9434))
+
 ## [1.21.0](https://github.com/santifer/career-ops/compare/career-ops-v1.20.0...career-ops-v1.21.0) (2026-07-17)
 
 
