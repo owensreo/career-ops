@@ -1,3 +1,5 @@
+<p align="center"><img src="../../assets/blue-ridge-systems-consulting-logo-wide.svg" alt="Blue Ridge Systems Consulting" width="480"></p>
+
 # career-ops -- Modos en español (`modes/es/`)
 
 Esta carpeta contiene las traducciones al español de los principales modos de career-ops para candidatos que apuntan al mercado hispanohablante (España, México, Argentina, Colombia, Chile y otros países de LATAM).

@@ -1,3 +1,5 @@
+<p align="center"><img src="../assets/blue-ridge-systems-consulting-logo-wide.svg" alt="Blue Ridge Systems Consulting" width="480"></p>
+
 # career-ops plugins
 
 The plugin layer is the **opt-in home for integrations that need a key or talk

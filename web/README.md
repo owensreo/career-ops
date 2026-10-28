@@ -1,3 +1,5 @@
+<p align="center"><img src="../assets/blue-ridge-systems-consulting-logo-wide.svg" alt="Blue Ridge Systems Consulting" width="480"></p>
+
 # career-ops web (alpha)
 
 An **experimental, opt-in web UI** for career-ops. It is a local-first *view* over

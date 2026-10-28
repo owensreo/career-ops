@@ -1,3 +1,5 @@
+<p align="center"><img src="../../assets/blue-ridge-systems-consulting-logo-wide.svg" alt="Blue Ridge Systems Consulting" width="480"></p>
+
 # career-ops -- Modes francophones (`modes/fr/`)
 
 Ce dossier contient les traductions francaises des principaux modes career-ops pour les candidats qui ciblent le marche francophone (France, Belgique, Suisse romande, Luxembourg, Quebec).

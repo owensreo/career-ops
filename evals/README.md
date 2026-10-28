@@ -1,3 +1,5 @@
+<p align="center"><img src="../assets/blue-ridge-systems-consulting-logo-wide.svg" alt="Blue Ridge Systems Consulting" width="480"></p>
+
 # Golden-set eval for cheap-model routing (#1354)
 
 > **Status: v1.** The *mechanism* (`eval-golden.mjs`) is design-invariant and runs

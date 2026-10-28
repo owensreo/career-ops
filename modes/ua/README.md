@@ -1,3 +1,5 @@
+<p align="center"><img src="../../assets/blue-ridge-systems-consulting-logo-wide.svg" alt="Blue Ridge Systems Consulting" width="480"></p>
+
 # career-ops — Українські режими (`modes/ua/`)
 
 Цей каталог містить україномовні версії режимів career-ops для шукачів роботи, які працюють на українському ринку праці або з вакансіями на ринку України.

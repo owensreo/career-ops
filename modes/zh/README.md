@@ -1,3 +1,5 @@
+<p align="center"><img src="../../assets/blue-ridge-systems-consulting-logo-wide.svg" alt="Blue Ridge Systems Consulting" width="480"></p>
+
 # career-ops — 中文模式 (`modes/zh/`)
 
 此目录包含主要 career-ops 模式的中文翻译，适用于针对中国大陆市场（或使用中文职位描述）的求职者。

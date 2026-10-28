@@ -1,3 +1,5 @@
+<p align="center"><img src="../../assets/blue-ridge-systems-consulting-logo-wide.svg" alt="Blue Ridge Systems Consulting" width="480"></p>
+
 # Career-Ops -- الأنماط واللغة العربية (`modes/ar/`)
 
 يحتوي هذا المجلد على الترجمة العربية الكاملة للأنماط (modes) الأساسية لنظام career-ops، والمصممة خصيصاً للمرشحين والمطورين في العالم العربي والشرق الأوسط، أو الذين يتقدمون لوظائف تتطلب التواصل باللغة العربية.

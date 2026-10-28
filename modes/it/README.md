@@ -1,3 +1,5 @@
+<p align="center"><img src="../../assets/blue-ridge-systems-consulting-logo-wide.svg" alt="Blue Ridge Systems Consulting" width="480"></p>
+
 # career-ops -- Modalità in italiano (`modes/it/`)
 
 Questa cartella contiene le traduzioni in italiano delle principali modalità di career-ops per i candidati che si rivolgono al mercato italiano.

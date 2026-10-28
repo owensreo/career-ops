@@ -1,3 +1,5 @@
+<p align="center"><img src="../../assets/blue-ridge-systems-consulting-logo-wide.svg" alt="Blue Ridge Systems Consulting" width="480"></p>
+
 # career-ops -- Modos em Português BR (`modes/pt/`)
 
 Esta pasta contém as traduções em português brasileiro dos principais modos do career-ops para candidatos que buscam vagas no mercado brasileiro ou em empresas que operam em português.
