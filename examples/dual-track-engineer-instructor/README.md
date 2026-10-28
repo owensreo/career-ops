@@ -1,3 +1,5 @@
+<p align="center"><img src="../../assets/blue-ridge-systems-consulting-logo-wide.svg" alt="Blue Ridge Systems Consulting" width="480"></p>
+
 # Example -- dual-track engineer + instructor
 
 This is for the case where one candidate has a real track record on two different archetypes at once. The example here is a senior AI engineer who is also a senior technical instructor, but the same structure works for backend + SRE, ML + research, IC + manager, or engineer + product manager.

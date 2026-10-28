@@ -1,3 +1,5 @@
+<p align="center"><img src="../../assets/blue-ridge-systems-consulting-logo-wide.svg" alt="Blue Ridge Systems Consulting" width="480"></p>
+
 # career-ops -- Danske modes (`modes/da/`)
 
 Denne mappe indeholder de danske oversættelser af de vigtigste career-ops-modes for kandidater, der søger på det danske marked.

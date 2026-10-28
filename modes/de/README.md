@@ -1,3 +1,5 @@
+<p align="center"><img src="../../assets/blue-ridge-systems-consulting-logo-wide.svg" alt="Blue Ridge Systems Consulting" width="480"></p>
+
 # career-ops — Deutsche Modi (`modes/de/`)
 
 Dieser Ordner enthält die deutschen Übersetzungen der wichtigsten career-ops-Modi für Bewerber:innen, die im DACH-Raum (Deutschland, Österreich, Schweiz) suchen oder mit deutschen Stellenanzeigen arbeiten.

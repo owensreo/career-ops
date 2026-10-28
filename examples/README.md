@@ -1,3 +1,5 @@
+<p align="center"><img src="../assets/blue-ridge-systems-consulting-logo-wide.svg" alt="Blue Ridge Systems Consulting" width="480"></p>
+
 # Examples
 
 Reference files that demonstrate career-ops data formats and conventions. None of these are used at runtime -- they exist so you can see the expected structure before creating your own files.

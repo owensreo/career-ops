@@ -1,3 +1,5 @@
+<p align="center"><img src="../../assets/blue-ridge-systems-consulting-logo-wide.svg" alt="Blue Ridge Systems Consulting" width="480"></p>
+
 # LaTeX-in examples (latex-tex mode)
 
 Fictional `.tex` fixtures for `extract-latex-content.mjs` / `patch-latex-content.mjs` tests.

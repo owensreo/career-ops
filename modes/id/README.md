@@ -1,3 +1,5 @@
+<p align="center"><img src="../../assets/blue-ridge-systems-consulting-logo-wide.svg" alt="Blue Ridge Systems Consulting" width="480"></p>
+
 # career-ops -- Mode Bahasa Indonesia (`modes/id/`)
 
 Folder ini berisi terjemahan Bahasa Indonesia dari mode-mode utama career-ops untuk kandidat yang membidik pasar kerja Indonesia (startup tech, perusahaan, dan portal seperti Glints, Jobstreet, Kalibrr, LinkedIn ID).

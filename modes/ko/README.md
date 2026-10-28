@@ -1,3 +1,5 @@
+<p align="center"><img src="../../assets/blue-ridge-systems-consulting-logo-wide.svg" alt="Blue Ridge Systems Consulting" width="480"></p>
+
 # career-ops -- 한국어 모드 (`modes/ko/`)
 
 이 디렉터리는 한국어권 후보자와 한국 채용 시장을 대상으로 career-ops의 주요 모드를 한국어로 번역한 파일을 담고 있습니다.

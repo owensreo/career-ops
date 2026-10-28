@@ -1,3 +1,5 @@
+<p align="center"><img src="../../assets/blue-ridge-systems-consulting-logo-wide.svg" alt="Blue Ridge Systems Consulting" width="480"></p>
+
 # career-ops — 繁體中文模式 (`modes/zh-TW/`)
 
 此目錄收錄 career-ops 主要模式的繁體中文翻譯，適用於鎖定**台灣**市場、或處理繁體中文職缺描述的求職者。

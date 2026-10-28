@@ -1,3 +1,5 @@
+<p align="center"><img src="../../assets/blue-ridge-systems-consulting-logo-wide.svg" alt="Blue Ridge Systems Consulting" width="480"></p>
+
 # career-ops — Türkçe Modlar (`modes/tr/`)
 
 Bu klasör, Türkiye iş piyasasında iş arayanlar veya Türkçe ilanlarla çalışanlar için career-ops modlarının Türkçe çevirilerini içerir.

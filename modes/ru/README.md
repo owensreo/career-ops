@@ -1,3 +1,5 @@
+<p align="center"><img src="../../assets/blue-ridge-systems-consulting-logo-wide.svg" alt="Blue Ridge Systems Consulting" width="480"></p>
+
 # career-ops — Русские режимы (`modes/ru/`)
 
 Этот каталог содержит русскоязычные версии режимов career-ops для соискателей, работающих на российском рынке труда или с русскоязычными вакансиями.

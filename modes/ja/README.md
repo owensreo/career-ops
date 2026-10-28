@@ -1,3 +1,5 @@
+<p align="center"><img src="../../assets/blue-ridge-systems-consulting-logo-wide.svg" alt="Blue Ridge Systems Consulting" width="480"></p>
+
 # career-ops -- 日本語モード (`modes/ja/`)
 
 このフォルダには、日本市場または日本語で運営される企業での求職活動を行う候補者向けに、career-ops の主要モードを日本語に翻訳したファイルが含まれています。
