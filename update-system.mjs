@@ -58,6 +58,7 @@ export const REEXEC_BUFFER_TIMEOUT_MS = parsePositiveInt(process.env.CAREER_OPS_
 
 // System layer paths — ONLY these files get updated
 const SYSTEM_PATHS = [
+  'assets/blue-ridge-systems-consulting-logo-wide.svg',
   'modes/README.md',
   'modes/_shared.md',
   'modes/_profile.template.md',
@@ -124,6 +125,7 @@ const SYSTEM_PATHS = [
   'KIMI.md',
   'build-dashboard.mjs',
   'generate-pdf.mjs',
+  'verify-pdf.mjs',
   'generate-latex.mjs',
   'extract-latex-content.mjs',
   'patch-latex-content.mjs',

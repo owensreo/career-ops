@@ -16,6 +16,7 @@
     "merge": "node merge-tracker.mjs",
     "reconcile": "node reconcile-pipeline.mjs",
     "pdf": "node generate-pdf.mjs",
+    "pdf:verify": "node verify-pdf.mjs",
     "img-to-pdf": "node img-to-pdf.mjs",
     "cover-letter": "node generate-cover-letter.mjs --payload",
     "cv:verify-facts": "node verify-cv-facts.mjs",
@@ -74,6 +75,7 @@
     "@google/generative-ai": "^0.24.1",
     "dotenv": "^17.0.0",
     "js-yaml": "^4.1.1",
+    "pdfjs-dist": "5.4.624",
     "playwright": "1.61.1"
   }
 }
