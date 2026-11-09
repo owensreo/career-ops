@@ -27,6 +27,7 @@ import { readFile } from 'fs/promises';
 import { mkdirSync, readFileSync, writeFileSync, existsSync } from 'fs';
 import { fileURLToPath, pathToFileURL } from 'url';
 import { randomUUID } from 'node:crypto';
+import { extractContactsFromHtml, verifyPdfFile } from './verify-pdf.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PDF_PAGE_MARGIN = '0.6in';
@@ -361,7 +362,7 @@ async function generatePDF() {
     console.log(`🧹 ATS normalization: ${totalReplacements} replacements (${breakdown})`);
   }
 
-  return renderHtmlToPdf(html, outputPath, { format, baseDir: dirname(inputPath), reportNum, inputPath });
+  return renderHtmlToPdf(html, outputPath, { format, baseDir: dirname(inputPath), reportNum, inputPath, verifyCv: true });
 }
 
 /**
@@ -422,9 +423,10 @@ export async function inlineLocalFonts(html) {
  *   baseDir?: string,
  *   reportNum?: string,
  *   inputPath?: string,
+ *   verifyCv?: boolean,
  *   launchBrowser?: (options: {headless: boolean}) => Promise<import('playwright').Browser>
  * }} [opts]
- * @returns {Promise<{outputPath: string, pageCount: number, size: number}>}
+ * @returns {Promise<{outputPath: string, pageCount: number, size: number, verification: object|null}>}
  */
 export async function renderHtmlToPdf(html, outputPath, opts = {}) {
   const format = opts.format || 'a4';
@@ -472,13 +474,22 @@ export async function renderHtmlToPdf(html, outputPath, opts = {}) {
     // Write PDF
     await writeFile(outputPath, pdfBuffer);
 
-    // Count pages (approximate from PDF structure)
-    const pdfString = pdfBuffer.toString('latin1');
-    const pageCount = (pdfString.match(/\/Type\s*\/Page[^s]/g) || []).length;
+    const verification = opts.verifyCv ? await verifyPdfFile(outputPath, {
+      minChars: 80,
+      contacts: extractContactsFromHtml(html),
+      sectionHeadings: extractRenderedSectionOrder(html).map(section => section.title),
+      failOnLayout: true,
+      requireContact: true,
+    }) : null;
+    const pageCount = verification?.pages ?? (pdfBuffer.toString('latin1').match(/\/Type\s*\/Page[^s]/g) || []).length;
 
     console.log(`✅ PDF generated: ${outputPath}`);
     console.log(`📊 Pages: ${pageCount}`);
     console.log(`📦 Size: ${(pdfBuffer.length / 1024).toFixed(1)} KB`);
+    if (verification) {
+      console.log(`🔎 ATS text layer: ${verification.normalizedText.length} characters verified`);
+      for (const warning of verification.layout.warnings) console.warn(`⚠️  PDF layout: ${warning}`);
+    }
 
     try {
       updatePDFManifest(reportNum, outputPath, inputPath, format);
@@ -488,7 +499,7 @@ export async function renderHtmlToPdf(html, outputPath, opts = {}) {
       console.error(`⚠️  Manifest update failed: ${err.message}`);
     }
 
-    return { outputPath, pageCount, size: pdfBuffer.length };
+    return { outputPath, pageCount, size: pdfBuffer.length, verification };
   } finally {
     if (browser) {
       await browser.close().catch((err) => {
